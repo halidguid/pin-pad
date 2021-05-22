@@ -1,0 +1,113 @@
+
+body {
+    background: rgb(104, 85, 85)
+    }
+
+
+.PINbuttonenter {
+    background: #bb2121;
+	color: #7e7e7e;
+	border: none;
+	background: linear-gradient(to bottom, #0ac028, #1eff00);
+      -webkit-box-shadow: 0px 2px 3px -0px rgba(0,0,0,0.3);
+         -moz-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+              box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+	border-radius: 40%;
+	font-size: 1.7em;
+	text-align: center;
+	width: 75px;
+	height: 65px;
+	margin: 7px 20px;
+	padding: 0;
+   
+}
+.PINbuttonclear{
+    background: #f51717;
+	color: #7e7e7e;
+	border: none;
+	background: ( #ff0202,);
+      -webkit-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+         -moz-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+              box-shadow: 0px 2px 2px -0px rgba(0,0,0,0
+			  .3);
+	border-radius: 20%;
+	font-size: 1.4em;
+	text-align: center;
+	width: 65px;
+	height: 65px;
+	margin: 10px 25px;
+	padding: 5;
+   
+}
+.PINform {
+	background: rgb(75, 71, 71);
+    display: flex;
+	position: absolute;
+	left: 50%;
+	margin-left: -180px;
+    text-align: center;
+    border-radius: 10px;
+	top: 50%;
+	margin-top: -215px;
+	padding: 30px;
+   
+     
+}
+.PINbox {
+    display:flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    width: 370px;
+    min-height: 60px;
+   
+   
+   
+    background: #ededed;
+	position: absolute;
+	left: 50%;
+	margin-left: -185px;
+	top: 52%;
+	margin-top: -255px;
+    font-size: 1.5em;
+
+}
+.PINbutton {
+	background: red;
+	color: #3f34da;
+	border: none;
+	background: linear-gradient(to bottom, #fafafa, #eaeaea);
+      -webkit-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+         -moz-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+              box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+	border-radius: 50%;
+	font-size: 1.5em;
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	margin: 7px 20px;
+	padding: 0;
+}
+.clear, .enter {
+	font-size: 1em;
+}
+.PINbutton:hover {
+ 	box-shadow: #491fbd 0 0 1px 1px;
+}
+.PINbutton:active {
+ 	background: #506CE8;
+	color: #fff;
+}
+.clear:hover {
+ 	box-shadow: #ff3c41 0 0 1px 1px;
+}
+.clear:active {
+ 	background: #ff3c41;
+	color: #fff;
+}
+.enter:hover {
+ 	box-shadow: #47cf73 0 0 1px 1px;
+}
+.enter:active {
+ 	background: #47cf73;
+	color: #fff;
+}
