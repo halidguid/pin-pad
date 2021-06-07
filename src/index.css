@@ -1,8 +1,8 @@
 body {
     background: linear-gradient(
         90deg,
-        rgb(255, 84, 17) 0%,
-        rgb(255, 136, 100) 100%
+        rgb(71, 89, 170) 0%,
+        rgb(94, 81, 163) 100%
       );
     }
 
@@ -48,7 +48,7 @@ body {
    
 }
 .PINform {
-	background: #ededed;
+	background: #9fcf83;
     display: flex;
 	position: absolute;
 	left: 50%;
@@ -96,7 +96,9 @@ body {
 	padding: 0;
 }
 .clear, .enter {
-	font-size: 1em;
+	font-size: 3
+	
+	em;
 }
 .PINbutton:hover {
  	box-shadow: #506CE8 0 0 1px 1px;
