@@ -1,46 +1,54 @@
-
 body {
-    background: rgb(104, 85, 85)
+    background: linear-gradient(
+        90deg,
+        rgb(255, 84, 17) 0%,
+        rgb(255, 136, 100) 100%
+      );
     }
 
 
+.PINform input:focus,
+.PINform select:focus,
+.PINform textarea:focus,
+.PINform button:focus {
+	outline: none;
+}
 .PINbuttonenter {
-    background: #bb2121;
+    background: #ededed;
 	color: #7e7e7e;
 	border: none;
-	background: linear-gradient(to bottom, #0ac028, #1eff00);
-      -webkit-box-shadow: 0px 2px 3px -0px rgba(0,0,0,0.3);
+	background: linear-gradient(to bottom, #4d9b43, #479e3c);
+      -webkit-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
          -moz-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
               box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
 	border-radius: 40%;
-	font-size: 1.7em;
+	font-size: 1.4em;
 	text-align: center;
-	width: 75px;
-	height: 65px;
+	width: 60px;
+	height: 60px;
 	margin: 7px 20px;
 	padding: 0;
    
 }
 .PINbuttonclear{
-    background: #f51717;
+    background: #fbff00;
 	color: #7e7e7e;
 	border: none;
-	background: ( #ff0202,);
+	background: linear-gradient(to bottom, #f31023, #d40909);
       -webkit-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
          -moz-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
-              box-shadow: 0px 2px 2px -0px rgba(0,0,0,0
-			  .3);
-	border-radius: 20%;
+              box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
+	border-radius: 40%;
 	font-size: 1.4em;
 	text-align: center;
-	width: 65px;
-	height: 65px;
-	margin: 10px 25px;
-	padding: 5;
+	width: 60px;
+	height: 60px;
+	margin: 7px 20px;
+	padding: 0;
    
 }
 .PINform {
-	background: rgb(75, 71, 71);
+	background: #ededed;
     display: flex;
 	position: absolute;
 	left: 50%;
@@ -60,20 +68,20 @@ body {
     width: 370px;
     min-height: 60px;
    
-   
+    border-radius: 10px;
    
     background: #ededed;
 	position: absolute;
 	left: 50%;
 	margin-left: -185px;
-	top: 52%;
+	top: 50%;
 	margin-top: -255px;
     font-size: 1.5em;
 
 }
 .PINbutton {
-	background: red;
-	color: #3f34da;
+	background: #ededed;
+	color: #7e7e7e;
 	border: none;
 	background: linear-gradient(to bottom, #fafafa, #eaeaea);
       -webkit-box-shadow: 0px 2px 2px -0px rgba(0,0,0,0.3);
@@ -91,7 +99,7 @@ body {
 	font-size: 1em;
 }
 .PINbutton:hover {
- 	box-shadow: #491fbd 0 0 1px 1px;
+ 	box-shadow: #506CE8 0 0 1px 1px;
 }
 .PINbutton:active {
  	background: #506CE8;

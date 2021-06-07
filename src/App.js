@@ -12,10 +12,18 @@ function App() {
     if(message === 'LOCKED'){
       return
     }
+    if(pin.length <4){
+      return
+    }
     setTries(tries + 1);
     if (pin !== "1234") {
       if (tries === 3) {
         setMessage("LOCKED");
+        setTimeout(() => {
+          setMessage("");
+          setTries(1);
+          setPin("");
+        }, 30000)
       } else {
         setMessage("ERROR");
         setPin("");
