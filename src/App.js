@@ -5,22 +5,22 @@ function App() {
   const [pin, setPin] = useState("");
   const [message, setMessage] = useState("");
   const [tries, setTries] = useState(1);
- 
+
 
 
   const Enter = () => {
-    if(message === 'LOCKED'){
+    if (message === 'LOCKED') {
       return
     }
-    if(pin.length <4){
-      return
+    if (pin.length < 4) {
+      return;
     }
     setTries(tries + 1);
     if (pin !== "1234") {
       if (tries === 3) {
         setMessage("LOCKED");
         setTimeout(() => {
-          setMessage("");
+          setMessage("")
           setTries(1);
           setPin("");
         }, 30000)
@@ -35,20 +35,21 @@ function App() {
     }
   };
   const updatePin = (value) => {
-    if(message === 'LOCKED'){
+    if (message === 'LOCKED') {
       return;
     }
-    if(pin.length === 4){
+    if (pin.length === 4) {
       return;
     }
     setPin((pin) => pin + value);
     if (message === "ERROR" || message === "OK") {
       setMessage("");
     }
+    console.log(message);
     setMessage((message) => message + "*");
   };
   const del = () => {
-    if(message === 'LOCKED'){
+    if (message === 'LOCKED') {
       return
     }
     setPin("");
