@@ -1,8 +1,8 @@
-@media
-
-body {
-    background: rgb(104, 85, 85)
-    }
+@media screen and (min-width: 480px) {
+	#PINbuttonenter {width: 150px; float: left;}
+	#PINbuttonclear {margin-left: 180px;}
+	
+  }
 
 
 .PINbuttonenter {
@@ -16,7 +16,7 @@ body {
 	border-radius: 40%;
 	font-size: 1.5em;
 	text-align: center;
-	width: 60px;
+	width: 50;
 	height: 60px;
 	margin: 7px 20px;
 	padding: 0;
@@ -34,7 +34,7 @@ body {
 	border-radius: 20%;
 	font-size: 1.2em;
 	text-align: center;
-	width: 60px;
+	width: 50px;
 	height: 60px;
 	margin: 10px 25px;
 	padding: 5;
@@ -112,3 +112,4 @@ body {
  	background: #47cf73;
 	color: #fff;
 }
+
