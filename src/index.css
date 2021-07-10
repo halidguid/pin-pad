@@ -1,8 +1,3 @@
-@media screen and (min-width: 480px) {
-	#PINbuttonenter {width: 150px; float: left;}
-	#PINbuttonclear {margin-left: 180px;}
-	
-  }
 
 
 .PINbuttonenter {
@@ -113,3 +108,23 @@
 	color: #fff;
 }
 
+@media only screen and (max-width: 450px) {
+	.PINbutton {
+	  margin: unset;
+	
+	}
+	.PINbox {
+	  left: 72%;
+	  width: 250px;
+	  top: 62%;
+	}
+  
+	.PINbuttonclear { 
+	  margin: unset;
+	}
+  
+	.PINbuttonenter {
+	  margin: unset;
+  
+	}
+	}
